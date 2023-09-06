@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&family=Lexend:wght@500;600&family=Poppins&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav design  */
+
+nav {
+  width: 100%;
+  display: inline-flex;
+  padding: 20px 0px 20px 63px;
+  align-items: center;
+  gap: 254.543px;
+  background: #fff;
+  box-shadow: 4px 0px 4px 0px rgba(33, 30, 30, 0.35);
+}
+
+nav ul {
+  width: 71%;
+  display: flex;
+  padding: 10px 70px 10px 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #051e55;
+  font-family: Lexend;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* page-1 design  */
+
+#victory-deo-page {
+  width: 100%;
+  padding-left: 72px;
+  background: rgba(203, 197, 193, 0.35);
+}
+
+#victory-deo-page .fleksboks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#victory-deo-page .fleksboks .text-container h1 {
+  margin-bottom: 20px;
+  color: #0e3c8a;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Lexend Deca;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#victory-deo-page .fleksboks .text-container p {
+  margin-bottom: 52px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+#victory-deo-page .fleksboks .text-container p span {
+  color: #0e3c8a;
+}
+
+#victory-deo-page .fleksboks .text-container .button-box .button-1 {
+  margin-right: 54.5px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  background: #2e7cdf;
+}
+
+#victory-deo-page .fleksboks .text-container .button-box .button-1 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+#victory-deo-page .fleksboks .text-container .button-box .button-2 {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #2e7cdf;
+}
+
+#victory-deo-page .fleksboks .text-container .button-box .button-2 a {
+  text-decoration: none;
+  color: #2e7cdf;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.fleksboks .image-box {
+  position: relative;
+}
+
+.fleksboks .image-box .background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.fleksboks .image-box .person {
+  z-index: 0;
+}
+
+/* page-2 design  */
+
+#about-page {
+  width: 100%;
+  padding: 63px 74px 63px 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about-page img {
+  width: 467px;
+  height: 512px;
+}
+
+#about-page .text-box h1 {
+  margin-bottom: 60px;
+  color: #0e3c8a;
+  font-family: Lexend;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#about-page .text-box p {
+  width: 778px;
+  margin-bottom: 72px;
+  color: #23201e;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#about-page .text-box button {
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+  background: #2e7cdf;
+}
+
+#about-page .text-box button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
